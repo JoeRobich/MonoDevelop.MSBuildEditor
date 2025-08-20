@@ -9,9 +9,9 @@
     <PackageVersion Include="Markdig.Signed" Version="0.37.0" />
     <PackageVersion Include="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" Version="2.22.0" />
     <PackageVersion Include="Microsoft.ApplicationInsights" Version="2.22.0" />
-    <PackageVersion Include="Microsoft.Build.Framework" Version="17.10.4" />
+    <PackageVersion Include="Microsoft.Build.Framework" Version="17.13.9" />
     <PackageVersion Include="Microsoft.Build.Locator" Version="1.7.8" />
-    <PackageVersion Include="Microsoft.Build" Version="17.10.4" />
+    <PackageVersion Include="Microsoft.Build" Version="17.13.9" />
     <PackageVersion Include="Microsoft.CodeAnalysis.Common" Version="$(RoslynVersion)" />
     <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="$(RoslynVersion)" />
     <PackageVersion Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="$(RoslynVersion)" />
@@ -21,29 +21,29 @@
     <PackageVersion Include="Microsoft.Extensions.Logging" Version="9.0.8" />
     <PackageVersion Include="Microsoft.IO.Redist" Version="6.0.1" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
-    <PackageVersion Include="Microsoft.NET.StringTools" Version="17.10.4" />
+    <PackageVersion Include="Microsoft.NET.StringTools" Version="17.13.9" />
     <PackageVersion Include="Microsoft.VisualStudio.Composition" Version="17.12.20" />
     <PackageVersion Include="Microsoft.VisualStudio.CoreUtility" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Editor" Version="17.13.226" />
-    <PackageVersion Include="Microsoft.VisualStudio.GraphModel" Version="17.13.39276" />
-    <PackageVersion Include="Microsoft.VisualStudio.ImageCatalog" Version="17.13.39276" />
-    <PackageVersion Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="17.10.40152" />
-    <PackageVersion Include="Microsoft.VisualStudio.Imaging" Version="17.13.39276" />
-    <PackageVersion Include="Microsoft.VisualStudio.Interop" Version="17.13.39276" />
+    <PackageVersion Include="Microsoft.VisualStudio.GraphModel" Version="17.13.40008" />
+    <PackageVersion Include="Microsoft.VisualStudio.ImageCatalog" Version="17.13.40008" />
+    <PackageVersion Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="17.13.90152" />
+    <PackageVersion Include="Microsoft.VisualStudio.Imaging" Version="17.13.40008" />
+    <PackageVersion Include="Microsoft.VisualStudio.Interop" Version="17.13.40008" />
     <PackageVersion Include="Microsoft.VisualStudio.Language.Intellisense" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Language.StandardClassification" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Language" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.LanguageServices" Version="$(RoslynVersion)" />
     <PackageVersion Include="Microsoft.VisualStudio.Platform.VSEditor" Version="17.13.226" />
-    <PackageVersion Include="Microsoft.VisualStudio.SDK" Version="17.10.40171" />
-    <PackageVersion Include="Microsoft.VisualStudio.Shell.15.0" Version="17.13.39276" />
-    <PackageVersion Include="Microsoft.VisualStudio.Shell.Framework" Version="17.13.39276" />
-    <PackageVersion Include="Microsoft.VisualStudio.TemplateWizardInterface" Version="17.13.39276" />
+    <PackageVersion Include="Microsoft.VisualStudio.SDK" Version="17.13.90171" />
+    <PackageVersion Include="Microsoft.VisualStudio.Shell.15.0" Version="17.13.40008" />
+    <PackageVersion Include="Microsoft.VisualStudio.Shell.Framework" Version="17.13.40008" />
+    <PackageVersion Include="Microsoft.VisualStudio.TemplateWizardInterface" Version="17.13.40008" />
     <PackageVersion Include="Microsoft.VisualStudio.Text.Data" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Text.Internal" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Text.Logic" Version="17.13.226" />
     <PackageVersion Include="Microsoft.VisualStudio.Threading" Version="17.13.2" />
-    <PackageVersion Include="Microsoft.VisualStudio.Utilities" Version="17.13.39276" />
+    <PackageVersion Include="Microsoft.VisualStudio.Utilities" Version="17.13.40008" />
     <PackageVersion Include="Microsoft.VSSDK.BuildTools" Version="17.11.435" />
     <PackageVersion Include="Moq" Version="4.20.71" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
