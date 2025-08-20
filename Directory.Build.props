@@ -7,6 +7,7 @@
     <DebugType>embedded</DebugType>
     <NBGV_ThisAssemblyNamespace>$(MSBuildProjectName)</NBGV_ThisAssemblyNamespace>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
     <UseArtifactsOutput>true</UseArtifactsOutput>
   </PropertyGroup>
 </Project>
