@@ -206,6 +206,16 @@ namespace MonoDevelop.MSBuild.Schema
 			AddNetCore (7, 0, "net10.0-tizen", KnownPlatform.Tizen);
 			AddNetCore (7, 0, "net10.0-browser", KnownPlatform.Browser);
 
+			AddNetCore (11, 0, "net11.0");
+			AddNetCore (11, 0, "net11.0-windows", KnownPlatform.Windows);
+			AddNetCore (11, 0, "net11.0-android", KnownPlatform.Android);
+			AddNetCore (11, 0, "net11.0-ios", KnownPlatform.iOS);
+			AddNetCore (11, 0, "net11.0-maccatalyst", KnownPlatform.MacCatalyst);
+			AddNetCore (11, 0, "net11.0-macos", KnownPlatform.macOS);
+			AddNetCore (11, 0, "net11.0-tvos", KnownPlatform.tvOS);
+			AddNetCore (7, 0, "net11.0-tizen", KnownPlatform.Tizen);
+			AddNetCore (7, 0, "net11.0-browser", KnownPlatform.Browser);
+ 
 			AddLegacy (null, FxID.MonoAndroid, 1, 0);
 			AddLegacy (null, FxID.MonoAndroid, 2, 3);
 			AddLegacy (null, FxID.MonoAndroid, 4, 0, 3);

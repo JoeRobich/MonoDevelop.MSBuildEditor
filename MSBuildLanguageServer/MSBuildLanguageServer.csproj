@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>MonoDevelop.MSBuild.Editor.LanguageServer</RootNamespace>
@@ -149,7 +149,6 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Console" />
     <PackageReference Include="Microsoft.VisualStudio.Composition" />
     <PackageReference Include="System.CommandLine" />
-    <PackageReference Include="System.Text.Json" />
     <PackageReference Include="StreamJsonRpc" />
     <PackageReference Include="Microsoft.CodeAnalysis.Common" PrivateAssets="runtime" />
     <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" PrivateAssets="runtime" />
