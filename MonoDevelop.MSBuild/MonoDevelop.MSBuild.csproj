@@ -44,6 +44,7 @@
     -->
     <PackageReference Include="Microsoft.Build" IncludeAssets="compile" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Build.Framework" IncludeAssets="compile" PrivateAssets="all" />
+    <!-- Transitive dependency is flagged by MSBuildLocator for not excluding the runtime assets. -->
     <PackageReference Include="Microsoft.NET.StringTools" ExcludeAssets="runtime" PrivateAssets="all" />
     <!-- upgrade vulnerable transitive dependencies -->
     <PackageReference Include="Microsoft.IO.Redist" ExcludeAssets="all" Condition="'$([MSBuild]::GetTargetFrameworkIdentifier($(TargetFramework)))' == '.NETFramework'" />

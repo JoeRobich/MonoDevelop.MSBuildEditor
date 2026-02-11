@@ -48,6 +48,8 @@
   <ItemGroup>
     <Using Include="Xunit" />
     <Using Include="Microsoft.CodeAnalysis.LanguageServer.MSBuildLanguageServer" Alias="RoslynLanguageServer" />
+    <!-- Transitive dependency is flagged by MSBuildLocator for not excluding the runtime assets. -->
+    <PackageReference Include="Microsoft.NET.StringTools" ExcludeAssets="runtime" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>

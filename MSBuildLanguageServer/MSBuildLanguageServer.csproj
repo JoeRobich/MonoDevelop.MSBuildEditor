@@ -153,6 +153,8 @@
     <PackageReference Include="Microsoft.CodeAnalysis.Common" PrivateAssets="runtime" />
     <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" PrivateAssets="runtime" />
     <PackageReference Include="Microsoft.Build.Locator " />
+    <!-- Transitive dependency is flagged by MSBuildLocator for not excluding the runtime assets. -->
+    <PackageReference Include="Microsoft.NET.StringTools" ExcludeAssets="runtime" PrivateAssets="all" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" PrivateAssets="runtime" />
   </ItemGroup>
 

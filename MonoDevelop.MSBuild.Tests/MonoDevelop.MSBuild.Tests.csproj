@@ -17,6 +17,8 @@
     <PackageReference Include="NUnit.Analyzers" />
     <PackageReference Include="NUnit3TestAdapter" />
     <PackageReference Include="Microsoft.Build.Locator" />
+    <!-- Transitive dependency is flagged by MSBuildLocator for not excluding the runtime assets. -->
+    <PackageReference Include="Microsoft.NET.StringTools" ExcludeAssets="runtime" PrivateAssets="all" />
     <PackageReference Include="FluentAssertions" />
     <PackageReference Include="Moq" />
   </ItemGroup>
